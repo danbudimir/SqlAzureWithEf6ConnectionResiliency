@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\ModelContext.cs" />
+    <Compile Include="Model\SqlAzureExecutionStrategyDbConfig.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

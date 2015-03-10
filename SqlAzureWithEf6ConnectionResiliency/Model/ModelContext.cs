@@ -4,9 +4,11 @@ namespace SqlAzureWithEf6ConnectionResiliency.Model
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
-
+    
+    [DbConfigurationType(typeof(SqlAzureExecutionStrategyDbConfig))]
     public partial class ModelContext : DbContext
     {
+        
         public ModelContext()
             : base("name=ModelContext")
         {
