@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlAzureWithEf6ConnectionResiliency.Db", "SqlAzureWithEf6ConnectionResiliency.Db\SqlAzureWithEf6ConnectionResiliency.Db.sqlproj", "{2EC159E4-9560-46E4-AE52-70004C427602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlAzureWithEf6ConnectionResiliency", "SqlAzureWithEf6ConnectionResiliency\SqlAzureWithEf6ConnectionResiliency.csproj", "{48CA80B0-2CFB-4DFB-9F54-5CA3080D0967}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC159E4-9560-46E4-AE52-70004C427602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC159E4-9560-46E4-AE52-70004C427602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC159E4-9560-46E4-AE52-70004C427602}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2EC159E4-9560-46E4-AE52-70004C427602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC159E4-9560-46E4-AE52-70004C427602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC159E4-9560-46E4-AE52-70004C427602}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{48CA80B0-2CFB-4DFB-9F54-5CA3080D0967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CA80B0-2CFB-4DFB-9F54-5CA3080D0967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CA80B0-2CFB-4DFB-9F54-5CA3080D0967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CA80B0-2CFB-4DFB-9F54-5CA3080D0967}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
